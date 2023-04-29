@@ -1,0 +1,119 @@
+/* NEWSLETTER section responsive  start  */
+@media(max-width:914px) {
+    .NEWSLETTER-section-email-subsribe {
+        /* border: 1px solid red; */
+        margin-top: 10px;
+    }
+
+    .NEWSLETTER-section {
+        flex-direction: column;
+        /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+    }
+
+    .NEWSLETTER-section-email-subsribe {
+        width: 100%;
+        margin-left: 0px;
+
+    }
+
+    .NEWSLETTER-section-details h4 {
+        /* border: 1px solid red; */
+
+        margin-top: 7px;
+    }
+}
+
+@media(max-width:420px) {
+    .NEWSLETTER-section {
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 15px;
+        /* border: 1px solid black; */
+    }
+
+    .NEWSLETTER-section-email-subsribe {
+        margin: 0;
+    }
+
+    .NEWSLETTER-section-email-subsribe {
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .NEWSLETTER-section-email-subsribe {
+        /* border: 1px solid red; */
+        margin: 0;
+        width: 100%;
+    }
+
+    .NEWSLETTER-section-main-details {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .NEWSLETTER-section-email-subsribe input {
+        margin-top: 15px;
+        /* width: 380px; */
+    }
+
+    .NEWSLETTER-section-email-subsribe button {
+        margin-top: 15px;
+        /* padding: 0; */
+        width: 150px;
+        /* text-align: center; */
+        /* justify-content: center; */
+    }
+}
+
+/* NEWSLETTER section responsive  start  */
+/* footer section responsive start  */
+@media(max-width:1024px) {
+    .footer-Third-part{
+        /* background-color: red; */
+    }
+    #pyment-details {
+        margin-left: 130px;
+    }
+    .footer-Third-part img {
+        margin: 0;
+    }
+
+}
+@media(max-width:912px) {
+    #pyment-details {
+        margin-left: 0px;
+    }
+}
+
+@media(max-width:540px) {
+.footer-Third-part {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    }
+    #pyment-details {
+        margin-left: 0px;
+        margin-top: 10px;
+
+    }
+    .footer-Third-part img {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+/* footer section responsive end  */

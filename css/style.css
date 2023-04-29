@@ -2026,12 +2026,7 @@
 
 /* Popular Departments section desighn end */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;
-}
+
 
 /* Popular Departments section desighn start */
 .Popular_Departments {
@@ -2367,6 +2362,8 @@
     padding: 50px 0px;
     border-top: 1px solid #dcdcdc;
     border-bottom: 1px solid #dcdcdc;
+padding-right: 200px;
+
 
 }
 
@@ -2390,6 +2387,18 @@
 .footer-second-part-links-and-details {
     display: flex;
     line-height: 2.5;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.footer-second-part_mainpart{
+    /* background-color: yellow; */
+display: flex;
+justify-content: center;
+align-items: center;
+/* border: 1px solid red; */
 }
 
 /* footer-second-part design end */
@@ -2408,7 +2417,7 @@
 }
 
 #pyment-details {
-    margin-left: 450px;
+    margin-left: 520px;
 }
 
 /* footer-Third-part design end */
