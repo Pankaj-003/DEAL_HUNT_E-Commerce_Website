@@ -77,17 +77,20 @@
 /* NEWSLETTER section responsive  start  */
 /* footer section responsive start  */
 @media(max-width:1024px) {
-    .footer-Third-part{
+    .footer-Third-part {
         /* background-color: red; */
     }
+
     #pyment-details {
         margin-left: 130px;
     }
+
     .footer-Third-part img {
         margin: 0;
     }
 
 }
+
 @media(max-width:912px) {
     #pyment-details {
         margin-left: 0px;
@@ -95,17 +98,19 @@
 }
 
 @media(max-width:540px) {
-.footer-Third-part {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    .footer-Third-part {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
+
     #pyment-details {
         margin-left: 0px;
         margin-top: 10px;
 
     }
+
     .footer-Third-part img {
         margin-left: 0px;
         margin-top: 10px;
@@ -117,3 +122,55 @@
 
 
 /* footer section responsive end  */
+/* header design start  */
+@media(max-width:545px) {
+    .header-section {
+        /* flex-direction: row; */
+        /* flex-direction: column; */
+        /* justify-content: center;
+        align-items: center; */
+        /* justify-content: flex-start;
+        align-items: flex-start; */
+        /* padding: 0; */
+    }
+
+    .header-links {
+        /* border: 1px solid red; */
+        visibility: hidden;
+        /* padding-right: 280px; */
+    }
+
+    .language {
+        margin: 0;
+    }
+
+    .english-border {
+        border: none;
+        /* 2222 */
+    }
+
+    .english-border {
+        /* border: 1px solid black; */
+        /* margin-left: 100px; */
+        position: absolute;
+        /* left: 438px; */
+        top: 20px;
+
+        right: 20px;
+
+    }
+
+    .header-welcome-message {
+        /* border: 1px solid red; */
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+    .language-hover {
+        /* border: 1px solid red ; */
+        right: 28px;
+        top: 46px;
+    }
+}
+
+/* header design end  */

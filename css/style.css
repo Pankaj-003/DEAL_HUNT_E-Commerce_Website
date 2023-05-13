@@ -14,12 +14,14 @@
     color: #333333;
     padding: 16px 20px;
     background-color: #f5f6f8;
+    /* border: 1px solid red; */
 }
 
 .header-links ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid darkblue; */
 
 }
 
@@ -31,8 +33,14 @@
     text-decoration: none;
     color: #333333;
     margin: 10px 15px;
-}
+    /* border: 1px solid yellow; */
 
+}
+.header-welcome-message{
+    /* border: 1px solid green; */
+    /* width: 900px; */
+}
+/* 1111 */
 .header-links a:hover {
     color: #336699;
 }
@@ -43,7 +51,7 @@
 
 .english-language {
     display: flex;
-
+    /* border: 1px solid red; */
 }
 
 .english-border a:hover {
